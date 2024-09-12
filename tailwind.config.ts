@@ -11,7 +11,7 @@ const config: Config = {
       headings: ['var(--font-raleway)'],
       body: ['var(--font-open-sans)'],
     },
-    fontSize:{
+    fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
@@ -27,6 +27,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        darkBlue: 'hsl(192, 100%, 6%)',
+        accent: 'hsl(168, 100%, 50%)'
+      }
     },
   },
   plugins: [],

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Raleway, Open_Sans } from "next/font/google";
 import "./globals.css";
+import { MainBackground } from "@/components/MainBackground";
+
 
 const raleway = Raleway({ subsets: ["latin"], display: "swap", variable: '--font-raleway' });
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap", variable: '--font-open-sans' });
@@ -17,8 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={raleway.variable + ' ' + openSans.variable}>
-        {children}
+      <body className={`${raleway.variable} ${openSans.variable} bg-black h-dvh py-6 px-6 relative sm:py-10 sm:px-10`}>
+        <MainBackground />
+        <main className="h-full transition-all duration-300 rounded-3xl overflow-hidden bg-black">
+          {children}
+        </main>
       </body>
     </html>
   );
