@@ -28,7 +28,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        darkBlue: 'hsl(192, 100%, 6%)',
+        darkBlue: 'hsla(250, 100%, 5%, 1)',
         accent: 'hsl(168, 100%, 50%)'
       }
     },
