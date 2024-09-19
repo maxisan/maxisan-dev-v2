@@ -1,8 +1,10 @@
 import React from 'react'
 import { map } from './generated-icons';
 
+export type IconName = keyof typeof map;
+
 interface IconProps {
-    name: keyof typeof map;
+    name: IconName;
     className?: string;
 }
 

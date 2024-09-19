@@ -22,13 +22,8 @@ const config: Config = {
       '4xl': '3rem',
     },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       colors: {
-        darkBlue: 'hsla(250, 100%, 5%, 1)',
+        darkBlue: 'hsla(200, 100%, 7%, 1)',
         accent: 'hsl(168, 100%, 50%)'
       }
     },

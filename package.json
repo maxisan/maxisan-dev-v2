@@ -11,7 +11,8 @@
     "svg": "svgr --icon --no-dimensions --typescript --no-prettier --index-template src/components/Icon/svgr/index-template.js --out-dir src/components/Icon/generated-icons src/assets/icons"
   },
   "dependencies": {
-    "next": "14.2.7",
+    "classnames": "^2.5.1",
+    "next": "^14.2.12",
     "react": "^18",
     "react-dom": "^18"
   },
