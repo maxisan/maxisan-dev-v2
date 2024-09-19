@@ -26,7 +26,7 @@ export default function RootLayout({
           <div className="text-white md:col-span-2">
             Welcome message and social media links
           </div>
-          <main className="md:col-start-2 row-start-2 rounded-xl bg-darkBlue">
+          <main className="md:col-start-2 row-start-2">
             {children}
           </main>
           <header className="md:col-start-1 md:row-start-2">
